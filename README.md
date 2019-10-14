@@ -20,25 +20,25 @@ San Francisco has been overrun with Uber and Lyft drivers who are a major cause 
 
 6. Although for analyzing OSM data for SF, [Apache spark and Apache Hive](https://spark.apache.org/docs/latest/sql-data-sources-hive-tables.html) was not neccesary because the data was small enough to make computation easy, it was used as a point of reference for future projects.
 
-# Check the readme inside the project folder to see further instructions and documentation.
+### Check the readme inside the project folder to see further instructions and documentation.
 
 ## Code style
 
-[![PEP-8](https://www.python.org/dev/peps/pep-0008/)
+[PEP-8](https://www.python.org/dev/peps/pep-0008/)
  
 ## Screenshots
-Include logo/demo screenshot etc.
+![Project-Demo](https://github.com/gautamtata/speeding-uber/blob/master/assets/school-speeds.gif)
 
 ## Tech/framework used
-1. [Apache Spark]() - 
-2. [Apache Hive]() - 
-3. [OSMNX]() - 
-4. [Uber Movement]() - 
-5. [GraphMl]() - 
-6. [GeoPandas]() - 
-7. [Folium]() - 
-8. [SeaBorn]() - 
-9. [Kepler.gl]() - 
+1. [pySpark](https://spark.apache.org) - Makes it really easy to work with data requiring large computations. It works as a distrubuted computation engine. 
+2. [Apache Hive](https://spark.apache.org/docs/latest/sql-data-sources-hive-tables.html) - Facilitates reading, writing and storing large datasets using SQL. Works really well with pySpark.
+3. [OSMNX](https://github.com/gboeing/osmnx) - In a single line of code, OSMnx lets you download, construct, and visualize the street network. It makes it really easy to work with graphs.
+4. [Uber Movement](https://movement.uber.com) - Open source data set for speeds in the city of San Francisco.
+5. [GraphMl](http://graphml.graphdrawing.org/) - Comprehensive and easy to use file format for graphs.
+6. [GeoPandas](http://geopandas.org/) - Python extension of Pandas which makes it easier to work with spatial data.
+7. [Folium](https://python-visualization.github.io/folium/) - Quick and easy data visualization using leaflet.js
+8. [SeaBorn](https://seaborn.pydata.org) - Statistical data visualization library based on matplotlib.
+9. [Kepler.gl](https://kepler.gl) - A powerful open source geospatial analysis tool for large-scale data sets.
 
 
 ## Features
