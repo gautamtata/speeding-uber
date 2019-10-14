@@ -61,13 +61,21 @@ The project is done using Jupyter Notebooks. Most of the data isn't provided bec
 
 ## Credits
 [Adrian-Ulbona](https://github.com/adrianulbona/osm-parquetizer) - To convert osm.pbf file to spark friendly files.
+
 [Carnegie Melon University](https://github.com/cmubtg/UberMovement) - This cool project that analyzes traffic data in Pittsburgh.
+
 [Alptekin Uzel](https://towardsdatascience.com/@alptuzel) - A machine learning approach for Uber Movements dataset.
+
 [Carsten Jacobsen](https://eng.uber.com/kepler-data-visualization-traffic-safety/) - Visualizing traffic safety using Movement + Kepler.gl
+
 [Alex Drake](https://github.com/alex-drake) - Analyzing speeds from Uber Movement data.
+
 [SF-Gov](https://data.sfgov.org) - For keeping their data open sourced. 
+
 [OSM](https://www.openstreetmap.org/#map=4/38.01/-95.84) - For maintaining the best standard for open source data.
+
 [Aiswarya Srinivas](https://github.com/AiswaryaSrinivas/3D-GeoPlot-in-R) - Plotting Uber movements data in R.
+
 [Georg Heiler](https://georgheiler.com/2019/05/07/analyze-osm-data-in-spark/) - For this great article on OSM analysis with pySpark.
 
 
