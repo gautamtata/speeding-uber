@@ -24,10 +24,10 @@ San Francisco has been overrun with Uber and Lyft drivers who are a major cause 
 
 ## Code style
 
-[![PEP-8](https://www.python.org/dev/peps/pep-0008/)
+[PEP-8](https://www.python.org/dev/peps/pep-0008/)
  
 ## Screenshots
-Include logo/demo screenshot etc.
+[Project-Demo](https://github.com/gautamtata/speeding-uber/blob/master/assets/school-speeds.gif)
 
 ## Tech/framework used
 1. [Apache Spark]() - 
