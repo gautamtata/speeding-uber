@@ -1,5 +1,5 @@
-## Project title
-The project title is Uber-speeds. It's a visualization of Uber drivers who are speeding around school zones in San Francisco.
+## Uber-speeds
+It's a visualization of Uber drivers who are speeding around school zones in San Francisco.
 
 ## Motivation
 San Francisco has been overrun with Uber and Lyft drivers who are a major cause in the traffic problems the city faces. Since Uber has become a lot more lucrative and there is often more than 1 driver per customer which makes it extremely competitive. Drivers for their own interest have to get to spots where is there is a surge in demand or they risk losing out on money. This visualization just shows which areas driver tend to speed the most and how it correlates with school locations.
