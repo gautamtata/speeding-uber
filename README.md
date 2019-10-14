@@ -20,8 +20,6 @@ San Francisco has been overrun with Uber and Lyft drivers who are a major cause 
 
 6. Although for analyzing OSM data for SF, [Apache spark and Apache Hive](https://spark.apache.org/docs/latest/sql-data-sources-hive-tables.html) was not neccesary because the data was small enough to make computation easy, it was used as a point of reference for future projects.
 
-### Check the readme inside the project folder to see further instructions and documentation.
-
 ## Code style
 
 [PEP-8](https://www.python.org/dev/peps/pep-0008/)
@@ -45,31 +43,35 @@ San Francisco has been overrun with Uber and Lyft drivers who are a major cause 
 What makes your project stand out?
 
 ## Code Example
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+![Iterating-thru-OSM-graph](https://github.com/gautamtata/speeding-uber/blob/master/assets/code_snippet_1.png)
+![initializing-SQL-spark-session](https://github.com/gautamtata/speeding-uber/blob/master/assets/code_snippet_2.png)
 
-## Installation
-Provide step by step series of examples and explanations about how to get a development env running.
+## Installation && Download checklist
+The project is done using Jupyter Notebooks. Most of the data isn't provided because the file size isn't compatible with Github.
 
-## API Reference
+### Things to download: 
+1. A shapefile for your city. I found San Francisco's shapefile at [SF-Gov](https://data.sfgov.org)
+2. Uber movement speed data set & OSM to ways data set [Uber movement speed & OSM2ways](movement.uber.com)
+3. I also used external resources for schools and speed limits both found at [SF-Gov](https://data.sfgov.org)
+4. You will need to convert the OSM data into spark suitable format [parquet](https://github.com/adrianulbona/osm-parquetizer)
 
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
-
-## Tests
-Describe and show how to run the tests with code examples.
 
 ## How to use?
-If people like your project they’ll want to learn how they can use it. To do so include step by step guide to use your project.
-
-## Contribute
-
-Let people know how they can contribute into your project. A [contributing guideline](https://github.com/zulip/zulip-electron/blob/master/CONTRIBUTING.md) will be a big plus.
+### Check the readme inside the project folder to see further instructions and documentation.
 
 ## Credits
-Give proper credits. This could be a link to any repo which inspired you to build this project, any blogposts or links to people who contrbuted in this project. 
+[Adrian-Ulbona](https://github.com/adrianulbona/osm-parquetizer) - To convert osm.pbf file to spark friendly files.
+[Carnegie Melon University](https://github.com/cmubtg/UberMovement) - This cool project that analyzes traffic data in Pittsburgh.
+[Alptekin Uzel](https://towardsdatascience.com/@alptuzel) - A machine learning approach for Uber Movements dataset.
+[Carsten Jacobsen](https://eng.uber.com/kepler-data-visualization-traffic-safety/) - Visualizing traffic safety using Movement + Kepler.gl
+[Alex Drake](https://github.com/alex-drake) - Analyzing speeds from Uber Movement data.
+[SF-Gov](https://data.sfgov.org) - For keeping their data open sourced. 
+[OSM](https://www.openstreetmap.org/#map=4/38.01/-95.84) - For maintaining the best standard for open source data.
+[Aiswarya Srinivas](https://github.com/AiswaryaSrinivas/3D-GeoPlot-in-R) - Plotting Uber movements data in R.
+[Georg Heiler](https://georgheiler.com/2019/05/07/analyze-osm-data-in-spark/) - For this great article on OSM analysis with pySpark.
 
-#### Anything else that seems useful
 
 ## License
-A short snippet describing the license (MIT, Apache etc)
+[MIT](https://opensource.org/licenses/MIT)
 
-MIT © [Yourname]()
+MIT © [Gautam Tata](https://www.gautamtata.com)
