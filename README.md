@@ -26,7 +26,7 @@ San Francisco has been overrun with Uber and Lyft drivers who are a major cause 
  
 ## Screenshots
 ![Project-Demo](https://github.com/gautamtata/speeding-uber/blob/master/assets/gif.gif)
-![Schools-london](https://github.com/gautamtata/speeding-uber/blob/master/assets/kepler-1.png)
+![Schools-london](https://github.com/gautamtata/speeding-uber/blob/master/assets/kepler-2.png)
 
 ## Tech/framework used
 1. [pySpark](https://spark.apache.org) - Makes it really easy to work with data requiring large computations. It works as a distrubuted computation engine. 
