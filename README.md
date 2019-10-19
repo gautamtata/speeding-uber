@@ -1,8 +1,14 @@
 ## Uber-speeds
-It's a visualization of Uber drivers who are speeding around school zones in San Francisco.
+It's a visualization of Uber drivers who are speeding around school zones in London.
 
 ## Motivation
 San Francisco has been overrun with Uber and Lyft drivers who are a major cause in the traffic problems the city faces. Since Uber has become a lot more lucrative and there is often more than 1 driver per customer which makes it extremely competitive. Drivers for their own interest have to get to spots where is there is a surge in demand or they risk losing out on money. This visualization just shows which areas driver tend to speed the most and how it correlates with school locations.
+
+## High-level overview of the project
+1. Extracting list of schools from OSM.
+2. Getting OSM ways data which is normalized and joined with speed data.
+3. Extract speed limit data from OSM and compare the difference in speeds from Uber's data.
+4. Visualize on a Map.
 
 ## Things to know
 
@@ -11,7 +17,7 @@ San Francisco has been overrun with Uber and Lyft drivers who are a major cause 
 2. The data set is taken midday after peek rush hours so that drivers "are given more opportunity to speed"
 3. Color scheme is as follow : 
     - Green : Driver is following within reported speed limits.
-    - Yellow : Driver is driving within 25% of the speed limits. (Ex: 28 mph in a 25 mph zone)
+    - Yellow : Driver is driving within 25% of the speed limits. (Ex: 28 kmph in a 25 kmph zone)
     - Red : Driver is driving at excessive speeds ( x > 25% of the speed limit)
 
 4. Borrowed from Alex Drake (@alex-drake) : Since Uber only reports OSM speeds for 5 or more vehicles on the street and provides a mean speed and standard deviation any speed detection. Since Uber does not provide a vehicle count, mean speeds cannot be weighted appropriately. Therefore, 1/std_dev has been used as a weight.
@@ -38,6 +44,7 @@ San Francisco has been overrun with Uber and Lyft drivers who are a major cause 
 7. [Folium](https://python-visualization.github.io/folium/) - Quick and easy data visualization using leaflet.js
 8. [SeaBorn](https://seaborn.pydata.org) - Statistical data visualization library based on matplotlib.
 9. [Kepler.gl](https://kepler.gl) - A powerful open source geospatial analysis tool for large-scale data sets.
+10. [PostGIS](https://postgis.net) - A geospatial database extender for normalizing and joining datasets together.
 
 
 ## Features
