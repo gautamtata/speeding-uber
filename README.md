@@ -1,5 +1,5 @@
 ## Uber-speeds
-It's a visualization of Uber drivers who are speeding around school zones in London.
+A map visualization which shows which represents Uber driver's who are speeding around school zones.
 
 ## Motivation
 Cities like London, San Francisc and New York have been overrun with Uber and Lyft drivers who are a major cause in the traffic problems the city faces. Since Uber has become a lot more lucrative and there is often more than 1 driver per customer which makes it extremely competitive. Drivers for their own interest have to get to spots where is there is a surge in demand or they risk losing out on money. This visualization shows which areas driver tend to speed the most and how it correlates with school locations.
@@ -64,8 +64,11 @@ The project is done using Jupyter Notebooks. Most of the data isn't provided bec
 4. You will need to convert the OSM data into spark suitable format [parquet](https://github.com/adrianulbona/osm-parquetizer)
 
 
-## How to use?
-### Check the readme inside the project folder to see further instructions and documentation.
+## Future Directions
+1. I was really interested in building a prediction model which based on mean speed data could predict areas which are more prone to speeding.
+2. Implementing a web application with more representation of data.
+
+
 
 ## Credits
 [Adrian-Ulbona](https://github.com/adrianulbona/osm-parquetizer) - To convert osm.pbf file to spark friendly files.
