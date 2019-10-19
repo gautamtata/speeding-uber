@@ -33,6 +33,7 @@ Cities like London, San Francisc and New York have been overrun with Uber and Ly
 ## Screenshots
 ![Project-Demo](https://github.com/gautamtata/speeding-uber/blob/master/assets/gif.gif)
 ![Schools-london](https://github.com/gautamtata/speeding-uber/blob/master/assets/kerpler-2.png)
+![SF-speeds](https://github.com/gautamtata/speeding-uber/blob/master/assets/school-speeds.gif)
 
 ## Tech/framework used
 1. [pySpark](https://spark.apache.org) - Makes it really easy to work with data requiring large computations. It works as a distrubuted computation engine. 
