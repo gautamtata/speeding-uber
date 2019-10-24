@@ -67,7 +67,8 @@ The project is done using Jupyter Notebooks. Most of the data isn't provided bec
 
 ## Future Directions
 1. I was really interested in building a prediction model which based on mean speed data could predict areas which are more prone to speeding.
-2. Implementing a web application with more representation of data.
+2. Implementing a web application that allows users to add more datasets.
+3. Travel time prediction to see how over-speeding has affected commute times due to accidents.
 
 
 
